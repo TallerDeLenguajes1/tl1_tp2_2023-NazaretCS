@@ -8,7 +8,7 @@
 int main(){
 
     int i;
-    double vt[N];
+    double vt[N]; 
     srand(time(NULL));
     
     for(i = 0;i<N; i++){
@@ -27,3 +27,4 @@ int main(){
 
     return 0;
 }
+
