@@ -8,15 +8,18 @@
 int main(){
 
     int i;
-    double vt[N];
+    double vt[N], *punt;
     srand(time(NULL));
     
-    for(i = 0;i<N; i++){
+    for(i = 0; i<N ; i++){
         
         vt[i] = 1 + rand() % 100;
         printf( "\n%f \n",  vt[i] );
         
     }
+
+    
+    
 
     return 0;
 }
