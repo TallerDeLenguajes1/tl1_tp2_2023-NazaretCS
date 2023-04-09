@@ -1,0 +1,14 @@
+¿Puede ver el archivo tp2_1_2.c? ¿Por qué?
+
+El archivo tp2_1_2.c no lo podemos ver por que fue creado en otra rama distinta a la cual estamos parados actualmente. Cuando trabajamo sobre una rama todo lo que modifiquemos se quedara dentro de esa rama, sin tocar el trabajo q tengamos en las demas.
+
+
+vuelva a ejecutar el comando gitk --all ¿Qué diferencias nota?
+
+el comando gitk --all nos muestra una grafica donde podemos visualizar nuestras ramas y lo que trabajamos sobre las mismas. Por eso cuando se creo el archivo .txt podemos diferenciar claramente sobre que rama fue creado.
+
+
+
+Luego utilice el comando gitk –all para ver los cambios, ¿Qué nota?
+
+Luego de mergear las ramas podemos notar en la grafica que lo que antes eran dos caminos que solo se relacionaban al principio vuelven a relacionarse convirtiendo en un solo camino, por asi decrilo.
